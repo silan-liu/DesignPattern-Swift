@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADA028681C5497E700364106 /* ISubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA028671C5497E700364106 /* ISubject.swift */; };
+		ADA0286A1C54980400364106 /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA028691C54980400364106 /* IObserver.swift */; };
+		ADA0286C1C54989300364106 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0286B1C54989300364106 /* WeatherData.swift */; };
+		ADA0286E1C54A19800364106 /* CurrentConditionDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0286D1C54A19800364106 /* CurrentConditionDisplay.swift */; };
+		ADA028701C54A26A00364106 /* StatsticsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0286F1C54A26A00364106 /* StatsticsDisplay.swift */; };
+		ADA028721C54A29C00364106 /* ForecastDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA028711C54A29C00364106 /* ForecastDisplay.swift */; };
+		ADA10D651C4A28D4008C07E5 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA10D641C4A28D4008C07E5 /* main.swift */; };
+		ADA10D701C4A2955008C07E5 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA10D6F1C4A2955008C07E5 /* Shape.swift */; };
+		ADA10D721C4A29AE008C07E5 /* DrawProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA10D711C4A29AE008C07E5 /* DrawProtocol.swift */; };
+		ADA10D761C4A2B4D008C07E5 /* ColorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA10D751C4A2B4D008C07E5 /* ColorProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADA10D5F1C4A28D4008C07E5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ADA028671C5497E700364106 /* ISubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISubject.swift; sourceTree = "<group>"; };
+		ADA028691C54980400364106 /* IObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
+		ADA0286B1C54989300364106 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		ADA0286D1C54A19800364106 /* CurrentConditionDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentConditionDisplay.swift; sourceTree = "<group>"; };
+		ADA0286F1C54A26A00364106 /* StatsticsDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsticsDisplay.swift; sourceTree = "<group>"; };
+		ADA028711C54A29C00364106 /* ForecastDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastDisplay.swift; sourceTree = "<group>"; };
+		ADA10D611C4A28D4008C07E5 /* DP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DP; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADA10D641C4A28D4008C07E5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		ADA10D6F1C4A2955008C07E5 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		ADA10D711C4A29AE008C07E5 /* DrawProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawProtocol.swift; sourceTree = "<group>"; };
+		ADA10D751C4A2B4D008C07E5 /* ColorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorProtocol.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADA10D5E1C4A28D4008C07E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADA028661C5497C800364106 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				ADA028671C5497E700364106 /* ISubject.swift */,
+				ADA028691C54980400364106 /* IObserver.swift */,
+				ADA0286B1C54989300364106 /* WeatherData.swift */,
+				ADA0286D1C54A19800364106 /* CurrentConditionDisplay.swift */,
+				ADA0286F1C54A26A00364106 /* StatsticsDisplay.swift */,
+				ADA028711C54A29C00364106 /* ForecastDisplay.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		ADA10D581C4A28D4008C07E5 = {
+			isa = PBXGroup;
+			children = (
+				ADA10D631C4A28D4008C07E5 /* DP */,
+				ADA10D621C4A28D4008C07E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADA10D621C4A28D4008C07E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADA10D611C4A28D4008C07E5 /* DP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADA10D631C4A28D4008C07E5 /* DP */ = {
+			isa = PBXGroup;
+			children = (
+				ADA028661C5497C800364106 /* Observer */,
+				ADA10D6B1C4A28E6008C07E5 /* Strategy */,
+				ADA10D641C4A28D4008C07E5 /* main.swift */,
+			);
+			path = DP;
+			sourceTree = "<group>";
+		};
+		ADA10D6B1C4A28E6008C07E5 /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				ADA10D6F1C4A2955008C07E5 /* Shape.swift */,
+				ADA10D711C4A29AE008C07E5 /* DrawProtocol.swift */,
+				ADA10D751C4A2B4D008C07E5 /* ColorProtocol.swift */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADA10D601C4A28D4008C07E5 /* DP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADA10D681C4A28D4008C07E5 /* Build configuration list for PBXNativeTarget "DP" */;
+			buildPhases = (
+				ADA10D5D1C4A28D4008C07E5 /* Sources */,
+				ADA10D5E1C4A28D4008C07E5 /* Frameworks */,
+				ADA10D5F1C4A28D4008C07E5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DP;
+			productName = DP;
+			productReference = ADA10D611C4A28D4008C07E5 /* DP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADA10D591C4A28D4008C07E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XY;
+				TargetAttributes = {
+					ADA10D601C4A28D4008C07E5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = ADA10D5C1C4A28D4008C07E5 /* Build configuration list for PBXProject "DP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADA10D581C4A28D4008C07E5;
+			productRefGroup = ADA10D621C4A28D4008C07E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADA10D601C4A28D4008C07E5 /* DP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADA10D5D1C4A28D4008C07E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADA0286E1C54A19800364106 /* CurrentConditionDisplay.swift in Sources */,
+				ADA10D651C4A28D4008C07E5 /* main.swift in Sources */,
+				ADA028721C54A29C00364106 /* ForecastDisplay.swift in Sources */,
+				ADA10D721C4A29AE008C07E5 /* DrawProtocol.swift in Sources */,
+				ADA0286C1C54989300364106 /* WeatherData.swift in Sources */,
+				ADA10D701C4A2955008C07E5 /* Shape.swift in Sources */,
+				ADA0286A1C54980400364106 /* IObserver.swift in Sources */,
+				ADA028701C54A26A00364106 /* StatsticsDisplay.swift in Sources */,
+				ADA028681C5497E700364106 /* ISubject.swift in Sources */,
+				ADA10D761C4A2B4D008C07E5 /* ColorProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ADA10D661C4A28D4008C07E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA10D671C4A28D4008C07E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ADA10D691C4A28D4008C07E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADA10D6A1C4A28D4008C07E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADA10D5C1C4A28D4008C07E5 /* Build configuration list for PBXProject "DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA10D661C4A28D4008C07E5 /* Debug */,
+				ADA10D671C4A28D4008C07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADA10D681C4A28D4008C07E5 /* Build configuration list for PBXNativeTarget "DP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA10D691C4A28D4008C07E5 /* Debug */,
+				ADA10D6A1C4A28D4008C07E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADA10D591C4A28D4008C07E5 /* Project object */;
+}
