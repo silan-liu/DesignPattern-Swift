@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD5EDF481C5CA0A500709052 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EDF471C5CA0A500709052 /* Component.swift */; };
+		AD5EDF4A1C5CA10800709052 /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EDF491C5CA10800709052 /* Milk.swift */; };
+		AD5EDF4C1C5CA14200709052 /* Mocha.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EDF4B1C5CA14200709052 /* Mocha.swift */; };
+		AD5EDF4E1C5CA17C00709052 /* Whip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EDF4D1C5CA17C00709052 /* Whip.swift */; };
+		AD5EDF501C5CA1DA00709052 /* DarkRoast.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EDF4F1C5CA1DA00709052 /* DarkRoast.swift */; };
+		AD5EDF521C5CA23B00709052 /* Decorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EDF511C5CA23B00709052 /* Decorator.swift */; };
+		AD5EDF541C5CA4AC00709052 /* Decaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5EDF531C5CA4AC00709052 /* Decaf.swift */; };
 		ADA028681C5497E700364106 /* ISubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA028671C5497E700364106 /* ISubject.swift */; };
 		ADA0286A1C54980400364106 /* IObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA028691C54980400364106 /* IObserver.swift */; };
 		ADA0286C1C54989300364106 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA0286B1C54989300364106 /* WeatherData.swift */; };
@@ -32,6 +39,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD5EDF471C5CA0A500709052 /* Component.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		AD5EDF491C5CA10800709052 /* Milk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
+		AD5EDF4B1C5CA14200709052 /* Mocha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mocha.swift; sourceTree = "<group>"; };
+		AD5EDF4D1C5CA17C00709052 /* Whip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whip.swift; sourceTree = "<group>"; };
+		AD5EDF4F1C5CA1DA00709052 /* DarkRoast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DarkRoast.swift; sourceTree = "<group>"; };
+		AD5EDF511C5CA23B00709052 /* Decorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decorator.swift; sourceTree = "<group>"; };
+		AD5EDF531C5CA4AC00709052 /* Decaf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decaf.swift; sourceTree = "<group>"; };
 		ADA028671C5497E700364106 /* ISubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISubject.swift; sourceTree = "<group>"; };
 		ADA028691C54980400364106 /* IObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IObserver.swift; sourceTree = "<group>"; };
 		ADA0286B1C54989300364106 /* WeatherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
@@ -56,6 +70,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD5EDF461C5CA09900709052 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				AD5EDF471C5CA0A500709052 /* Component.swift */,
+				AD5EDF491C5CA10800709052 /* Milk.swift */,
+				AD5EDF4B1C5CA14200709052 /* Mocha.swift */,
+				AD5EDF4D1C5CA17C00709052 /* Whip.swift */,
+				AD5EDF4F1C5CA1DA00709052 /* DarkRoast.swift */,
+				AD5EDF511C5CA23B00709052 /* Decorator.swift */,
+				AD5EDF531C5CA4AC00709052 /* Decaf.swift */,
+			);
+			path = Decorator;
+			sourceTree = "<group>";
+		};
 		ADA028661C5497C800364106 /* Observer */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +116,7 @@
 		ADA10D631C4A28D4008C07E5 /* DP */ = {
 			isa = PBXGroup;
 			children = (
+				AD5EDF461C5CA09900709052 /* Decorator */,
 				ADA028661C5497C800364106 /* Observer */,
 				ADA10D6B1C4A28E6008C07E5 /* Strategy */,
 				ADA10D641C4A28D4008C07E5 /* main.swift */,
@@ -163,14 +192,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA0286E1C54A19800364106 /* CurrentConditionDisplay.swift in Sources */,
+				AD5EDF4E1C5CA17C00709052 /* Whip.swift in Sources */,
+				AD5EDF501C5CA1DA00709052 /* DarkRoast.swift in Sources */,
 				ADA10D651C4A28D4008C07E5 /* main.swift in Sources */,
 				ADA028721C54A29C00364106 /* ForecastDisplay.swift in Sources */,
 				ADA10D721C4A29AE008C07E5 /* DrawProtocol.swift in Sources */,
+				AD5EDF481C5CA0A500709052 /* Component.swift in Sources */,
 				ADA0286C1C54989300364106 /* WeatherData.swift in Sources */,
+				AD5EDF4C1C5CA14200709052 /* Mocha.swift in Sources */,
 				ADA10D701C4A2955008C07E5 /* Shape.swift in Sources */,
 				ADA0286A1C54980400364106 /* IObserver.swift in Sources */,
 				ADA028701C54A26A00364106 /* StatsticsDisplay.swift in Sources */,
 				ADA028681C5497E700364106 /* ISubject.swift in Sources */,
+				AD5EDF541C5CA4AC00709052 /* Decaf.swift in Sources */,
+				AD5EDF521C5CA23B00709052 /* Decorator.swift in Sources */,
+				AD5EDF4A1C5CA10800709052 /* Milk.swift in Sources */,
 				ADA10D761C4A2B4D008C07E5 /* ColorProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -263,6 +299,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -273,6 +310,7 @@
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				OTHER_SWIFT_FLAGS = "-Xfrontend -debug-time-function-bodies";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

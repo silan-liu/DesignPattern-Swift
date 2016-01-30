@@ -28,12 +28,9 @@ class BaseObserver: IObserver {
     }
 }
 
-extension BaseObserver: Equatable, Hashable {
-    var hashValue: Int {
-        return self.value
-    }
+extension BaseObserver: Equatable {
 }
 
 func ==(lhs: BaseObserver, rhs: BaseObserver) -> Bool {
-    return lhs.hashValue == rhs.hashValue
+    return lhs.value == rhs.value
 }

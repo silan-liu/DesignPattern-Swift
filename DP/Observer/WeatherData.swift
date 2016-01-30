@@ -11,6 +11,8 @@ import Foundation
 class WeatherData: ISubject {
     
     private var observers: [BaseObserver] = []
+    private var observer1s: [IObserver] = []
+
     private var temperature: Float = 0
     private var humidity: Float = 0
     private var pressure: Float = 0
